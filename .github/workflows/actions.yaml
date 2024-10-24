@@ -13,5 +13,5 @@ jobs:
           cache: 'maven'
           cache-dependency-path: './pom.xml'
       - name: Build with Maven
-        working-directory: ./
+        working-directory: /
         run: mvn -B package --file pom.xml
